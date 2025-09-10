@@ -57,3 +57,49 @@ h1, h2, h3{
 h1{font-size: 4rem;}
 h2{font-size: 3.2rem;}
 h3{font-size: 2.4rem;}
+
+/* Header */
+.header{
+    display: flex; /* Para centrar el logo */
+    justify-content: center; /* Para centrar el logo */
+}
+
+.header__logo{
+    margin: 3rem 0; /* Margen superior e inferior de 3rem, sin margen a los lados */
+}
+
+/* Navegacion */
+
+.navegacion{
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace{
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--secundario);
+    transition: color .3s ease;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;    
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 2.2rem;
+    text-align: center;
+}
