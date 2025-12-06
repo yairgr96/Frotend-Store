@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
     <header class="header">
         <a href="">
@@ -22,12 +24,33 @@
     </nav>
 
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React JS</h1>
 
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/1.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper
+                    dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante,
+                    non dignissim odio ligula at arcu.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
         <p class="footer__texto">Frontend Store - Todos los derechos reservados</p>
     </footer>
 </body>
+
 </html>
