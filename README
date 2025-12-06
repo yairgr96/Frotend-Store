@@ -1,0 +1,48 @@
+# Frontend Store
+
+Frontend Store es una tienda en línea diseñada para desarrolladores y entusiastas de la tecnología. Este proyecto tiene como objetivo ofrecer una experiencia visual atractiva y funcional, destacando playeras con diseños exclusivos inspirados en lenguajes de programación y herramientas tecnológicas.
+
+## Descripción del Proyecto
+
+Frontend Store es un sitio web estático que incluye:
+
+- Una página principal que muestra los productos disponibles.
+- Una página "Nosotros" que describe la misión y visión de la tienda.
+- Una página de detalle de producto con opciones de selección de talla y cantidad.
+
+El diseño está enfocado en la simplicidad, la claridad y la facilidad de navegación, asegurando una experiencia de usuario fluida.
+
+## Lenguajes Utilizados
+
+Este proyecto fue construido utilizando:
+
+- **HTML5**: Para la estructura del contenido y la semántica del sitio.
+- **CSS3**: Para los estilos y el diseño responsivo, incluyendo el uso de Google Fonts y un archivo de normalización (`normalize.css`).
+
+## Estructura del Proyecto
+
+```
+index.html         - Página principal de la tienda.
+nosotros.html      - Página sobre nosotros y nuestra misión.
+producto.html      - Página de detalle de un producto.
+css/
+  normalize.css    - Reset de estilos.
+  styles.css       - Estilos principales del proyecto.
+img/               - Imágenes y recursos gráficos.
+```
+
+## Cómo usar este proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/yairgr96/Frotend-Store.git
+   ```
+2. Abre el archivo `index.html` en tu navegador para explorar la tienda.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el proyecto, abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
